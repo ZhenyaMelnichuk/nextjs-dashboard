@@ -40,5 +40,6 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
       },
     }),
   ],
-  trustHost: true
+  // trustHost: true
+  // В файл env нужно добавить AUTH_TRUST_HOST=true
 })

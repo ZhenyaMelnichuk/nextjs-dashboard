@@ -1,6 +1,7 @@
 import { AccordionDemo } from '@/components/demo/AccordionDemo'
 import { AlertDialogDemo } from '@/components/demo/AlertDialogDemo'
 import { BreadcrumbDemo } from '@/components/demo/BreadcrumbDemo'
+import { ProductList } from '@/components/demo/ProductList'
 
 export default async function Page() {
   return (
@@ -8,6 +9,7 @@ export default async function Page() {
       <BreadcrumbDemo />
       <AccordionDemo />
       <AlertDialogDemo />
+      <ProductList />
     </main>
   )
 }
